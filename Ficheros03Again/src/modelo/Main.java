@@ -15,7 +15,7 @@ public class Main {
 	        // Crear el nombre del archivo de copia
 	        String nombreCopia = "copia_de_" + nombreArchivo;
 
-	        try (BufferedReader br = new BufferedReader(new FileReader(nombreArchivo));
+	        try (BufferedReader br = new BufferedReader(new FileReader("src/modelo/ejemplo.txt"));
 	             BufferedWriter bw = new BufferedWriter(new FileWriter(nombreCopia))) {
 	             
 	            String linea;

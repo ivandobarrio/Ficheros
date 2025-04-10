@@ -17,6 +17,8 @@ public class Main {
         
         System.out.print("Introduce tu edad: ");
         int edad = sc.nextInt();
+        
+        guardarDatos(nombre,edad);
 	}
 	private static void guardarDatos(String nombre,int edad) {
 		String datos = nombre + ", " + edad;

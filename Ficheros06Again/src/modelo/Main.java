@@ -54,10 +54,7 @@ public class Main {
 			System.out.println("Ocurrió un error al intentar leer los archivos: " + e.getMessage());
 		}
 	}
-	private static Object lineaArchivo2(String line) {
-		// TODO Auto-generated method stub
-		return null;
-	}
+	
 	private static void guardarNumerosEnArchivo(String nombreArchivo, List<Integer>lista) {
 		try(BufferedWriter bw = new BufferedWriter(new FileWriter("src/modelo/resultado.txt"))){
 			for(int numero: lista) {

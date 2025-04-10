@@ -10,7 +10,7 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
-		System.out.println();
+		System.out.println("Introduce el nombre del fichero a mostrar");
 		String nombreFichero = sc.nextLine();
 		
 		if(nombreFichero.isEmpty()) {
@@ -20,7 +20,7 @@ public class Main {
 		sc.close();
 	}
 	private static void mostrarContenidoFichero(String nombreFichero) {
-		try(BufferedReader br = new BufferedReader(new FileReader("src/modelo/fichero.txt"))){
+		try(BufferedReader br = new BufferedReader(new FileReader("src/modelo/" + nombreFichero))){
 			String linea;
 			while((linea=br.readLine())!=null) {
 				System.out.println(linea);

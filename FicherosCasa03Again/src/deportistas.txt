@@ -1,0 +1,6 @@
+Nombre Completo,Edad,Peso,Estatura
+Juan Pérez,25,70,1.75
+María López,30,60,1.65
+Carlos García,22,80,1.80
+Ana Martínez,28,55,1.60
+Luis Fernández,35,90,1.85
